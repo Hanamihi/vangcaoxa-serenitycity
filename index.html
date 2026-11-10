@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title id="page-title">Quản lý thông tin quỹ đất - Dự án Vàng Cao Xá</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon.png" sizes="32x32">
+    <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 style="color: #2c3e50; text-align: center; margin: 0;"> 
+        <div class="header">
+            <span id="header-title">QUẢN LÝ THÔNG TIN QUỸ ĐẤT DỰ ÁN</span><br>
+            <small id="header-subtitle">Khu dân cư Vàng Cao Xá</small>
+        </div>
+    </h2>
+
+    <div class="map-container">
+        <!-- Nơi nhúng tự động Bản đồ SVG và Ảnh nền -->
+        <div id="map-wrapper" style="width: 100%; height: 100%;"></div>
+
+        <!-- Bảng chú thích được tạo tự động từ PROJECT_CONFIG trong main.js -->
+        <div class="map-legend">
+            <h4>CHÚ THÍCH</h4>
+            <div class="legend-grid">
+                <div class="legend-col" id="legend-types"></div>
+                <div class="legend-col" id="legend-statuses"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="info-box">
+        <h3 id="malo">Mã lô</h3>
+        <div class="info-row"><span>Tình trạng:</span> <b id="trangThai"></b></div>
+        <div class="info-row"><span id="label-loai">Loại / Mẫu TK:</span> <b id="loai"></b></div>
+        <div class="info-row"><span>Diện tích lô:</span> <b id="dientich"></b></div>
+        
+        <div id="construction-info">
+            <div class="info-row"><span>Chiều cao:</span> <b id="sotang"></b></div>
+            <div class="info-row"><span>Diện tích XD:</span> <b id="dtxd"></b></div>
+            <div class="info-row"><span>Mật độ XD:</span> <b id="matdo"></b></div>
+            
+            <hr>
+            <span class="floor-title">Thông tin sàn xây dựng</span>
+            <div id="floor-details">
+                <div class="info-row"><span>Tầng 1:</span> <b id="t1"></b></div>
+                <div class="info-row"><span>Tầng 2:</span> <b id="t2"></b></div>
+                <div class="info-row"><span>Tầng 3:</span> <b id="t3"></b></div>
+                <div class="info-row"><span>Tầng 4:</span> <b id="t4"></b></div>
+                <div class="info-row" style="border-top: 1px solid #eee; padding-top: 8px; margin-top: 5px;">
+                    <span>Tổng diện tích sàn:</span> <b id="tongSan" style="color: #d35400;"></b>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" id="smart-zalo-btn" class="cta-pulse-button">
+            📞 Liên hệ ngay để nhận thông tin dự án
+        </a>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
