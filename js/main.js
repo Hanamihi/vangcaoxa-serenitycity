@@ -5,9 +5,9 @@
  */
 const PROJECT_CONFIG = {
     // 1. Tiêu đề hiển thị trên trình duyệt và đầu trang
-    pageTitle: "Quản lý thông tin quỹ đất - Dự án Vàng Cao Xá",
+    pageTitle: "Dự án Vàng Cao Xá - Quản lý thông tin quỹ đất",
     headerTitle: "QUẢN LÝ THÔNG TIN QUỸ ĐẤT DỰ ÁN",
-    headerSubtitle: "Khu dân cư Vàng Cao Xá",
+    headerSubtitle: "Khu dân cư Vàng Cao Xá - Serenity City",
 
     // 2. Đường dẫn Dữ liệu & Hình ảnh (Chỉ cần thay ảnh nền và file svg)
     scriptUrl: "https://script.google.com/macros/s/AKfycbwGbmlJkh0tNn2bkduTtwBdnOobT_lFuEv26ytIZHI5fpEXTSYtIZyTD_Jddkmsakg/exec", // Nhớ thay bằng link Web App của Sheet Vàng Cao Xá
