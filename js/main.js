@@ -19,8 +19,8 @@ const PROJECT_CONFIG = {
 
     // 4. Bảng chú thích: Loại hình đất của dự án (Cột 1)
     legendTypes: [
-        { label: "Đất ở liền kề", color: "#00aeef" }, // Màu xanh khớp với file map.svg
-        { label: "Đất ở biệt thự", color: "#fbbc04" }  // Màu vàng cam khớp với file map.svg
+        { label: "Đất ở liền kề", color: "#00aeef" }, // Màu xanh biển khớp với file map.svg
+        { label: "Đất ở biệt thự", color: "#72C630" }  // Màu xanh lá khớp với file map.svg
     ],
 
     // 5. Bảng chú thích: Trạng thái bán hàng (Cột 2)
