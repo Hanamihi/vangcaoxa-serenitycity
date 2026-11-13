@@ -97,7 +97,7 @@ body {
 .cta-pulse-button {
     display: block;
     text-align: center;
-    background: #e67e22;
+    background: #ffd640;
     color: white !important;
     text-decoration: none !important;
     font-weight: bold;
@@ -112,7 +112,7 @@ body {
 }
 
 .cta-pulse-button:hover {
-    background: #d35400;
+    background: #e67e22;
     transform: scale(1.02);
 }
 
